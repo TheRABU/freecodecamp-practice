@@ -1,0 +1,109 @@
+#title {
+    text-align: center;
+    font-size: 32px Poppins;
+    font-family: 'Poppins' sans-serif;
+    font-weight: 400;
+    color:#f3f3f3;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+#description {
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    font-family: 'Poppins' sans-serif;
+    font-weight: 200;
+    color: #f3f3f3;
+    margin-top: 5px;
+    border
+}
+
+form {
+    width: 60vw;
+        max-width: 720px;
+        min-width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 2px solid black;
+        border-radius: 10px;
+}
+
+input {
+    width: 90%;
+    height: 40px;
+   border-radius: 5px;
+   font-size: 16px;
+}
+label {
+    margin-bottom: 10px;
+    width: 90%;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1.2rem auto;
+    padding: 0.25rem;
+}
+
+input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+}
+#survey-form {
+    background-color: rgba(27, 27, 50, 0.8);
+    width: 80%;
+    margin: 0 auto;
+    color: #f3f3f3;
+    font-size: 16px Poppins;
+    font-family: sans-serif;
+    padding: 40px;
+}
+#name-label {
+    color: #f3f3f3;
+        font-size: 18px Poppins;
+        font-family: sans-serif;
+        margin: 0px 0px 8px;
+        padding: 6px 12px;
+}
+
+
+#div.form-group {
+    color: #f3f3f3;
+        font-size: 18px Poppins;
+        font-family: sans-serif;
+        margin: 0px 0px 20px;
+        padding: 4px;
+}
+#email-label {
+    color: #f3f3f3;
+        font-size: 18px Poppins;
+        font-family: sans-serif;
+        margin: 0px 0px 8px;
+        padding: 6px 12px;
+    }
+
+#age-label {
+    color: #f3f3f3;
+    font-size: 18px Poppins;
+    font-family: sans-serif;
+    margin: 0px 0px 8px;
+    padding: 6px 12px;
+}
+
+#age.form-control {
+    background: #FFFFFF;
+    padding: 6px 12px;
+}
+body{   
+        
+        background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white
+        width: 100vw;
+        height: 100vh;
+       
+}
